@@ -1,5 +1,6 @@
 import React from 'react';
 import { capitalizeFirstLetter } from '../../utils/helpers';
+import navbarImage from "../../assets/images/rainbow4c.png";
 
 function Nav(props) {
   const {
@@ -12,7 +13,7 @@ function Nav(props) {
 
   return (
     <header className="navbar">
-      
+      <img src={navbarImage} />
       <nav>
         <h1>Joe Merrell</h1>
         <ul className="flex-row">

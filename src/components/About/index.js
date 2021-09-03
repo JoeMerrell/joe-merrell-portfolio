@@ -3,8 +3,8 @@ import React from 'react';
 function About() {
   return (
     <section>
-      <h4 id="about">About me</h4>
-      <p className="text-muted">Born in Seattle, Washington, I'm a Los Angeles-based artist and web developer. My education includes degrees in philosophy, art(film), as well as a certificate in full-stack web development earned at UCLA's Coding Bootcamp. My web-related technical skills include:</p>
+      <h5 id="about">About me</h5>
+      <p className="text-muted basic">Born in Seattle, Washington, I'm a Los Angeles-based artist and web developer. My education includes degrees in philosophy, art(film), as well as a certificate in full-stack web development earned at UCLA's Coding Bootcamp. My web-related technical skills include:</p>
         <ul className="text-muted">
             <li>JavaScript</li>
             <li>React</li>
