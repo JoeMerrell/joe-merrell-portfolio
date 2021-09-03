@@ -201,6 +201,11 @@ textarea {
   margin-left: var(--spacing-two);
 }
 
+.mx-3 {
+  margin-right: var(--spacing-three);
+  margin-left: var(--spacing-three);
+}
+
 .my-1 {
   margin-top: var(--spacing-one);
   margin-bottom: var(--spacing-one);
