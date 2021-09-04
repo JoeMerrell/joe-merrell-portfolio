@@ -2,15 +2,11 @@ body {
   font-family: 'IBM Plex Sans', sans-serif;
 }
 
-
-
-
 main {
 	margin: 0 auto;
 	max-width: 90%;
   padding: 50px 30px;
 }
-
 
 :root {
   --primary: #8c54ff;

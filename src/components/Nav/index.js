@@ -15,7 +15,7 @@ function Nav(props) {
     <header className="navbar">
       <img src={navbarImage} />
       <nav>
-        <h1>Joe Merrell</h1>
+        <h1>JOE MERRELL</h1>
         <ul className="flex-row">
           <li className="mx-3">
             <a data-testid="about" href="#about" onClick={() => setContactSelected(false)}>
