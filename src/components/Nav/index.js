@@ -13,7 +13,7 @@ function Nav(props) {
 
   return (
     <header className="navbar">
-      <img src={navbarImage} />
+      <img src={navbarImage} alt="rainbow-mountains" />
       <nav>
         <h1>JOE MERRELL</h1>
         <ul className="flex-row">
