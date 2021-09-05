@@ -9,8 +9,8 @@ function App() {
   const [contactSelected, setContactSelected] = useState(false);
   const [categories] = useState([
     {
-      name: 'CGI',
-      description: 'Models and images created using various software including Cinema4D, Photoshop, and AfterEffects',
+      name: 'Gallery',
+      description: 'Models and images created using software including Cinema4D, Photoshop, and AfterEffects',
     },
   ]);
 

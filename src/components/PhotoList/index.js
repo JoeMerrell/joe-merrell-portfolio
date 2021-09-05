@@ -11,42 +11,42 @@ const PhotoList = ({ category }) => {
   const [photos] = useState([
     {
       name: 'Alien Deer',
-      category: 'CGI',
+      category: 'Gallery',
       description: 'Models and render by Joe Merrell',
     },
     {
       name: 'Mushrooms',
-      category: 'CGI',
+      category: 'Gallery',
       description: 'Models and render by Joe Merrell',
     },
     {
       name: 'Caterpillar',
-      category: 'CGI',
+      category: 'Gallery',
       description: 'Models and render by Joe Merrell',
     },
     {
       name: 'Moth',
-      category: 'CGI',
+      category: 'Gallery',
       description: 'Model and render by Joe Merrell',
     },
     {
       name: 'Squid',
-      category: 'CGI',
+      category: 'Gallery',
       description: 'Models and render by Joe Merrell',
     },
     {
       name: 'Fruit',
-      category: 'CGI',
+      category: 'Gallery',
       description: 'Models and render by Joe Merrell',
     },
     {
       name: 'Dandelions',
-      category: 'CGI',
+      category: 'Gallery',
       description: 'Models and render by Joe Merrell',
     },
     {
       name: 'I am the ______.',
-      category: 'CGI',
+      category: 'Gallery',
       description: 'Models and render by Joe Merrell',
     },
 

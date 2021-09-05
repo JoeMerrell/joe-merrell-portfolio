@@ -10,7 +10,7 @@ main {
 
 :root {
   --primary: #8c54ff;
-  --secondary: #F3A847;
+  --secondary: #cccccc;
   --tertiary: #B12704;
   --light: #cccccc;
   --dark: #000000;
@@ -206,8 +206,8 @@ textarea {
 }
 
 .mx-1 {
-  margin-right: var(--spacing-one);
-  margin-left: var(--spacing-one);
+  margin-right: var(--spacing-three);
+  margin-left: var(--spacing-three);
 }
 
 .mx-2 {
