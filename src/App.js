@@ -3,44 +3,47 @@ import Nav from './components/Nav';
 import About from './components/About';
 import Contact from './components/Contact';
 import Gallery from './components/Gallery';
-
+import Projects from './components/Projects';
+import Resume from './components/Resume';
 
 function App() {
-  const [contactSelected, setContactSelected] = useState(false);
-  const [categories] = useState([
-    {
-      name: 'Gallery',
-      description: 'Models and images created using software including Cinema4D, Photoshop, and AfterEffects',
-    },
-  ]);
+  const [currentPage, handlePageChange] = useState('About');
 
+  
+    // Add a switch statement that will return the appropriate component of the 'currentPage'
+    // YOUR CODE HERE
 
-  const [currentCategory, setCurrentCategory] = useState(categories[0]);
+    const renderPage = () => {
+      switch (currentPage) {
+        case 'About':
+          return <About />;
+        case 'Projects':
+          return <Projects />;
+        case 'Gallery':
+          return <Gallery />;
+        case 'Resume':
+          return <Resume />;  
+        case 'Contact':
+          return <Contact />;  
+
+        default:
+          return <About />;
+      }
+    };
+   
 
   return (
     <div>
-        <Nav
-          categories={categories}
-          setCurrentCategory={setCurrentCategory}
-          currentCategory={currentCategory}
-          contactSelected={contactSelected}
-          setContactSelected={setContactSelected}
-        ></Nav>
-        
-      <main>
-
-      {!contactSelected ? (
-        <>
-          <Gallery currentCategory={currentCategory}></Gallery>
-          <About></About>
-        </>
-      ) : (
-          <Contact></Contact>
-        )}
-
-      </main>
+      <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
+      <div>{renderPage(currentPage)}</div>
     </div>
   );
 }
 
 export default App;
+
+
+
+
+
+

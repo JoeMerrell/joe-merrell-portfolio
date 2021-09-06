@@ -2,6 +2,12 @@ body {
   font-family: 'IBM Plex Sans', sans-serif;
 }
 
+.decor {
+
+  text-decoration: none;
+
+}
+
 main {
 	margin: 0 auto;
 	max-width: 90%;
@@ -206,8 +212,8 @@ textarea {
 }
 
 .mx-1 {
-  margin-right: var(--spacing-three);
-  margin-left: var(--spacing-three);
+  margin-right: var(--spacing-one);
+  margin-left: var(--spacing-one);
 }
 
 .mx-2 {
