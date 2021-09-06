@@ -1,16 +1,16 @@
 import React from 'react';
 import { capitalizeFirstLetter } from '../../utils/helpers';
-import navbarImage from "../../assets/images/rainbow4c.png";
+import navbarImage from "../../assets/images/rainbow6d.png";
 
 function Nav(props) {
   const tabs = ['About', 'Projects', 'Gallery', 'Resume', 'Contact'];
   return (
-    <div className="container-fluid">
+    <div className="container-fluid decor">
       <img src={navbarImage} alt="rainbow-mountains" />
-      <h1 className="container-fluid">Joe Merrell</h1>
-      <ul className="nav">
+      <h1 className="container-fluid decor">Joe Merrell</h1>
+      <ul className="nav decor">
       {tabs.map(tab => (
-        <li className="nav-item" key={tab}>
+        <li className="nav-item decor" key={tab}>
           <a
             href={'#' + tab.toLowerCase()}
             onClick={() => props.handlePageChange(tab)}
