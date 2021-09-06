@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Nav from './components/Nav';
 import About from './components/About';
 import Contact from './components/Contact';
-import Gallery from './components/Gallery';
+import ImageGallery from './components/Gallery';
 import Projects from './components/Projects';
 import Resume from './components/Resume';
 
@@ -20,7 +20,7 @@ function App() {
         case 'Projects':
           return <Projects />;
         case 'Gallery':
-          return <Gallery />;
+          return <ImageGallery />;
         case 'Resume':
           return <Resume />;  
         case 'Contact':
