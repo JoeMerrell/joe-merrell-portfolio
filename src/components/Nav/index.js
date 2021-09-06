@@ -1,6 +1,6 @@
 import React from 'react';
 import { capitalizeFirstLetter } from '../../utils/helpers';
-import navbarImage from "../../assets/images/rainbow6d.png";
+import navbarImage from "../../assets/images/mountain2.png";
 
 function Nav(props) {
   const tabs = ['About', 'Projects', 'Gallery', 'Resume', 'Contact'];
