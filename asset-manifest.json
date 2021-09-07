@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/joe-merrell-portfolio/static/css/main.657e5a1b.chunk.css",
+    "main.js": "/joe-merrell-portfolio/static/js/main.fa1f95f4.chunk.js",
+    "main.js.map": "/joe-merrell-portfolio/static/js/main.fa1f95f4.chunk.js.map",
+    "runtime-main.js": "/joe-merrell-portfolio/static/js/runtime-main.9b600519.js",
+    "runtime-main.js.map": "/joe-merrell-portfolio/static/js/runtime-main.9b600519.js.map",
+    "static/js/2.b5b554f4.chunk.js": "/joe-merrell-portfolio/static/js/2.b5b554f4.chunk.js",
+    "static/js/2.b5b554f4.chunk.js.map": "/joe-merrell-portfolio/static/js/2.b5b554f4.chunk.js.map",
+    "index.html": "/joe-merrell-portfolio/index.html",
+    "static/css/main.657e5a1b.chunk.css.map": "/joe-merrell-portfolio/static/css/main.657e5a1b.chunk.css.map",
+    "static/js/2.b5b554f4.chunk.js.LICENSE.txt": "/joe-merrell-portfolio/static/js/2.b5b554f4.chunk.js.LICENSE.txt",
+    "static/media/0.d7ab6f79.jpg": "/joe-merrell-portfolio/static/media/0.d7ab6f79.jpg",
+    "static/media/1.b9678c30.jpg": "/joe-merrell-portfolio/static/media/1.b9678c30.jpg",
+    "static/media/2.f9551d5a.jpg": "/joe-merrell-portfolio/static/media/2.f9551d5a.jpg",
+    "static/media/3.5cf060a8.jpg": "/joe-merrell-portfolio/static/media/3.5cf060a8.jpg",
+    "static/media/4.8a448e8b.jpg": "/joe-merrell-portfolio/static/media/4.8a448e8b.jpg",
+    "static/media/5.7e997566.jpg": "/joe-merrell-portfolio/static/media/5.7e997566.jpg",
+    "static/media/instagram.3e564ce8.png": "/joe-merrell-portfolio/static/media/instagram.3e564ce8.png",
+    "static/media/linkedin.2e0c9c16.png": "/joe-merrell-portfolio/static/media/linkedin.2e0c9c16.png",
+    "static/media/mountain2.dd52f6ac.png": "/joe-merrell-portfolio/static/media/mountain2.dd52f6ac.png",
+    "static/media/selfie.66442b4c.png": "/joe-merrell-portfolio/static/media/selfie.66442b4c.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9b600519.js",
+    "static/js/2.b5b554f4.chunk.js",
+    "static/css/main.657e5a1b.chunk.css",
+    "static/js/main.fa1f95f4.chunk.js"
+  ]
+}
