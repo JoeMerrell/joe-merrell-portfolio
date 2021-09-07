@@ -1,4 +1,7 @@
 import React from 'react';
+import instagram from '../../assets/images/instagram.png';
+import linkedin from '../../assets/images/linkedin.png';
+import selfie from '../../assets/images/selfie.png';
 
 
 function About() {
@@ -24,11 +27,19 @@ function About() {
                 <li>Premier Pro/Final Cut Pro</li>
                 <li>Unreal (gaming/3d Interactive)</li>
             </ul>
-            <p className="basic px-2">More detailed information can be found at the Resume link above.</p>
+            <p className="basic px-2">More detailed information can be found at the Resume link above. Artist website and social media links below:</p>
             </div>
             <div className="col-lg-auto"></div>
             <div className="col col-lg-2"></div>
         </div>
+
+        <div className='container-fluid mt-3'>
+                <img src={selfie} className='image-space' width="40"></img>
+                <img src={instagram} className='image-space' width="40"></img>
+                <img src={linkedin} width="40"></img>
+                
+            </div>
+
       </div>
 
     </section>
